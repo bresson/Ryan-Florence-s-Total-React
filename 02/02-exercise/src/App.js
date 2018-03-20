@@ -18,6 +18,7 @@ class RadioGroup extends Component {
         }
       }) //returns clone of child
     }) //newProps aka implicit props
+    //can I use this on victory charts???
     return (
       <fieldset className="radio-group">
         <legend>{this.props.legend}</legend>
